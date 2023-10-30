@@ -1,0 +1,105 @@
+#contact {
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+
+    position: absolute;
+    top: 0;
+    left: 0vw;
+
+    h2 {
+        text-align: center;
+        margin-top: 2vh;
+        padding: 10px;
+        font-size: 60px;
+        font-weight: 100;
+    }
+
+    .form {
+        padding: 5px;
+        margin: 2vh 0 0 0;
+        font-family: poppins;
+        font-size: 14px;
+
+        form {
+            border: 1px solid rgb(44, 33, 33);
+            // box-shadow: 1px 1px 5px darkgrey;
+            padding: 2vh;
+            border-radius: 20px;
+            transition: 400ms ease;
+        }
+
+        form:focus {
+            border: 1px solid white;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+        // label {
+        //     width: 80px;
+        // }
+
+        // input
+        input {
+            text-align: center;
+
+
+            outline: none;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 180px;
+
+            padding: 5px;
+            background: transparent;
+            color: white;
+            transition: 300ms ease;
+        }
+
+        input:focus {
+            border-bottom: 1px solid yellowgreen;
+            width: 240px;
+        }
+
+        textarea {
+            resize: none;
+            outline: none;
+            border: 1px solid white;
+            margin: 10px 0;
+            padding: 5px;
+            width: 320px;
+            height: 200px;
+
+            background: transparent;
+            color: yellowgreen;
+            transition: 300ms ease;
+        }
+
+        textarea:focus {
+            border: 1px solid yellowgreen;
+        }
+
+    }
+
+
+    // contact details 
+    .c-details {
+        /* border: 1px solid white; */
+        // display: block;
+        margin-top: 4vh;
+
+        div {
+            display: block;
+        }
+
+        p {
+            width: 140px;
+            display: inline-block;
+        }
+    }
+}

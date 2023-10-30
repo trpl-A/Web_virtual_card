@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 200vw;
+    height: 100vh;
+    transition: 600ms ease;
+
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-stop: normal;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.github {
+    width: 80px;
+    height: 80px;
+    /* margin: 2vh 1vh; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* =========================================== */
+
+header,
+section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+
+.info-box {
+    position: absolute;
+    top: calc(50vh - 50px);
+    right: calc(50vw - 100px);
+    /* top: 0; */
+    /* right: 0; */
+
+    display: none;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    /* border: 1px solid white; */
+}
+
+/* =========================================== */

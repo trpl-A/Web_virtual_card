@@ -1,0 +1,24 @@
+@import "header";
+@import "split_section";
+
+// hidden sections
+@import "contact";
+@import "about";
+@import "projects";
+
+// screensize
+@import "_screensize";
+
+
+.hidden-section {
+    display: none;
+}
+
+.btn-exit {
+    margin: 3vh 1vh 1vh 1vh;
+}
+
+.btn-exit:hover {
+    background-color: red;
+    color: white;
+}
