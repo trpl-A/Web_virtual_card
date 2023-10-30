@@ -91,6 +91,9 @@ section #my-skills .skills #recent-project {
   top: 0;
   left: 0vw;
 }
+#contact div {
+  margin-bottom: 20px;
+}
 #contact h2 {
   text-align: center;
   margin-top: 2vh;
@@ -104,19 +107,16 @@ section #my-skills .skills #recent-project {
   font-family: poppins;
   font-size: 14px;
 }
+#contact .form .no-margin {
+  margin: 0;
+}
 #contact .form form {
   border: 1px solid rgb(44, 33, 33);
   padding: 2vh;
   border-radius: 20px;
   transition: 400ms ease;
 }
-#contact .form form:focus {
-  border: 1px solid white;
-}
-#contact .form div {
-  margin-bottom: 20px;
-}
-#contact .form input {
+#contact .form form input {
   text-align: center;
   outline: none;
   border: none;
@@ -127,11 +127,11 @@ section #my-skills .skills #recent-project {
   color: white;
   transition: 300ms ease;
 }
-#contact .form input:focus {
+#contact .form form input:focus {
   border-bottom: 1px solid yellowgreen;
   width: 240px;
 }
-#contact .form textarea {
+#contact .form form textarea {
   resize: none;
   outline: none;
   border: 1px solid white;
@@ -143,11 +143,13 @@ section #my-skills .skills #recent-project {
   color: yellowgreen;
   transition: 300ms ease;
 }
-#contact .form textarea:focus {
+#contact .form form textarea:focus {
   border: 1px solid yellowgreen;
 }
+#contact .form form:hover {
+  border: 1px solid white;
+}
 #contact .c-details {
-  /* border: 1px solid white; */
   margin-top: 4vh;
 }
 #contact .c-details div {
@@ -191,6 +193,8 @@ section #my-skills .skills #recent-project {
   background-color: black;
   padding: 1.5vh;
   border-radius: 15px;
+  word-wrap: normal;
+  text-wrap: wrap;
   transition: 500ms ease-out;
 }
 #about-me .about-me-json pre:hover {
