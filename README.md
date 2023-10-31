@@ -13,13 +13,8 @@
 
 
 ## Preview
-<style>
-    p{
-        color:yellow;
-    }
-</style>
-<p atyle="text-align: center">
-    <a href="https://stardev.io/developers/ssoad">
-        <img src="./styles/images/six.jpeg" alt="" />
+<div style="text-align: center; border-radius:20px;">
+    <a href="https://www.google.com">
+        <img src="screenshot.JPG" alt="" />
     </a> 
-</p>
+</div>
