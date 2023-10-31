@@ -5,9 +5,6 @@ header {
   color: white;
   /* background-image: url("./images/anonymous.jpg"); */
   /* background-blend-mode: luminosity; */
-  height: 100vh;
-  width: 100vw;
-  position: relative;
 }
 header p {
   margin-top: 20px;
@@ -36,10 +33,6 @@ header .desc #goto a {
 
 /* SPLIT-SECTION */
 section {
-  position: absolute;
-  top: 0;
-  left: 100vw;
-  height: 100vh;
   width: 100vw;
   color: white;
   /* background-color: black; */
@@ -88,8 +81,8 @@ section #my-skills .skills #recent-project {
   height: 100vh;
   z-index: -10;
   position: absolute;
-  top: 0;
-  left: 0vw;
+  top: 100;
+  left: 0;
 }
 #contact div {
   margin-bottom: 20px;
@@ -147,13 +140,10 @@ section #my-skills .skills #recent-project {
   border: 1px solid yellowgreen;
 }
 #contact .form form:hover {
-  border: 1px solid white;
+  border: 2px solid white;
 }
 #contact .c-details {
   margin-top: 4vh;
-}
-#contact .c-details div {
-  display: block;
 }
 #contact .c-details p {
   width: 140px;
@@ -168,7 +158,7 @@ section #my-skills .skills #recent-project {
   height: 100vh;
   z-index: -10;
   position: absolute;
-  top: 0;
+  top: 100;
   left: 0;
 }
 #about-me h2 {
@@ -216,7 +206,7 @@ section #my-skills .skills #recent-project {
   height: 100vh;
   z-index: -10;
   position: absolute;
-  top: 0;
+  top: 100;
   left: 0;
 }
 #projects h2 {
@@ -235,7 +225,7 @@ section #my-skills .skills #recent-project {
 
 @media (max-width: 750px) {
   header {
-    height: 100vh;
+    height: 100%;
     background-color: rgb(55, 0, 0);
   }
   header p {
@@ -243,11 +233,13 @@ section #my-skills .skills #recent-project {
     width: 90vw;
     font-size: 15px;
   }
-  header #profile-image {
+  header .desc #profile-image {
     margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
+    width: 200px;
+    height: 200px;
   }
-  header .text {
+  header .desc .text {
     padding: 10px;
   }
   section {
@@ -269,7 +261,33 @@ section #my-skills .skills #recent-project {
   #about-me .about-me-json {
     font-size: 12px;
   }
+  #projects img {
+    width: 40vw;
+    height: 40vw;
+  }
+  #contact h2 {
+    margin-top: 1vh;
+    font-size: 40px;
+  }
+  #contact div {
+    margin-bottom: 10px;
+  }
+  #contact form {
+    padding: 1vh 2vh;
+  }
+  #contact form textarea {
+    margin: 0;
+    transform: scaleX(0.8);
+    transform: scaleY(0.8);
+  }
+  #contact .c-details {
+    margin-top: 2vh;
+  }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .hidden-section {
   display: none;
 }

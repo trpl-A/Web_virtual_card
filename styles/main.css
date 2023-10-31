@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -15,13 +19,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    width: 200vw;
+    width: 100vw;
     height: 100vh;
     transition: 600ms ease;
 
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-stop: normal;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    /* scroll-snap-stop: normal; */
 }
 
 a {
@@ -41,6 +45,11 @@ a {
 
 header,
 section {
+    /* height: 100%; */
+    height: 100vh;
+    width: 100vw;
+    /* overflow: auto; */
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

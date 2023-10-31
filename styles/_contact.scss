@@ -8,8 +8,8 @@
     z-index: -10;
 
     position: absolute;
-    top: 0;
-    left: 0vw;
+    top: 100;
+    left: 0;
 
     div {
         margin-bottom: 20px;
@@ -79,7 +79,7 @@
         }
 
         form:hover {
-            border: 1px solid white;
+            border: 2px solid white;
         }
     }
 
@@ -88,9 +88,9 @@
     .c-details {
         margin-top: 4vh;
 
-        div {
-            display: block;
-        }
+        // div {
+        //     display: block;
+        // }
 
         p {
             width: 140px;

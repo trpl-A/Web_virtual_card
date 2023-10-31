@@ -1,6 +1,6 @@
 @media (max-width:750px) {
     header {
-        height: 100vh;
+        height: 100%;
         background-color: rgb(55, 0, 0);
 
         p {
@@ -9,14 +9,17 @@
             font-size: 15px;
         }
 
+        .desc {
+            #profile-image {
+                margin-top: 4vh;
+                margin-bottom: 2vh;
+                width: 200px;
+                height: 200px;
+            }
 
-        #profile-image {
-            margin-top: 4vh;
-            margin-bottom: 4vh;
-        }
-
-        .text {
-            padding: 10px;
+            .text {
+                padding: 10px;
+            }
         }
     }
 
@@ -48,7 +51,45 @@
             // margin: 2vh 2vh;
             font-size: 12px;
         }
-
     }
 
+    // ========================================
+
+    #projects {
+        img {
+            width: 40vw;
+            height: 40vw;
+        }
+    }
+
+    // ========================================
+
+    #contact {
+        h2 {
+            margin-top: 1vh;
+            font-size: 40px;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        form {
+            padding: 1vh 2vh;
+
+            textarea {
+                margin: 0;
+                // width: 320px;
+                // height: 200px;
+                transform: scaleX(0.8);
+                transform: scaleY(0.8);
+            }
+
+        }
+
+        .c-details {
+            margin-top: 2vh;
+        }
+
+    }
 }

@@ -17,3 +17,5 @@ https://github.com/ssoad/ssoad/blob/master/README.md?plain=1
 https://university.webflow.com/
 ---
 
+smooth scroll
+---
