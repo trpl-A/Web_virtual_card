@@ -5,8 +5,6 @@
 - Updated:      18.11.23
 - Status:   
     * COMPLETE
-    * connected to Git?     yes
-    * connected to Github?  yes
 ---
 
 ## Preview
