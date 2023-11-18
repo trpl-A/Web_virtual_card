@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- started: 29/10/23 -->
-    <!-- updated: 31/10/23 -->
-    <!-- developed by RFX aka trpl-A -->
+    <!-- updated: 18/11/23 -->
+    <!-- developed by trpl-A -->
     <title>Virtual Card</title>
 
     <!-- favicon -->
@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animate-header.css">
 
     <!-- scripts -->
     <script src="scripts/show.js"></script>
@@ -35,9 +36,15 @@
     <header>
         <div class="center">
             <div class="desc">
+                <script>
+                    let soundfx1 = new Audio("/soundfx/sound1.mp3"); 
+                </script>
+                <!-- <button onclick="snd.play()"> Click Me </button> -->
+
+
                 <div class="center">
-                    <img id="profile-image" src="" alt="profile image">
-                    <!-- <img id="profile-image" src="" alt="profile-image"> -->
+                    <img id="profile-image" src="" alt="profile image" title="click"
+                        onclick="changeProfileImage(), soundfx1.play()">
                 </div>
 
                 <div class="text">
@@ -87,7 +94,7 @@
         "fitness",
         "chess"
     ],
-    computer_language-xp: [
+    computer_language_xp: [
         "HTML",
         "CSS",
         "JavaScript",
@@ -123,14 +130,24 @@
             <div>
                 <h2>Projects</h2>
 
-                <div class="center">
-                    <img src="./styles/icons/h.jpg" alt="">
-                    <img src="./styles/icons/h.jpg" alt="">
+                <div class="center project-block">
+                    <a href="https://github.com/trpl-A/Py_acc_pswd" target="_blank">
+                        <img src="./styles/icons/skills/logo-html-t.png" alt="html logo" title="login webpage">
+                    </a>
+                    <a href="./android-app-apk" target="_blank">
+                        <!-- <a href="./android-app-apk/Task-Ticker.apk" target="_blank"> -->
+                        <img src="./styles/icons/skills/logo-thunkable.png" alt="thunkable logo"
+                            title="thunkable to-do list (android app)">
+                    </a>
                 </div>
 
                 <div class="center">
-                    <img src="./styles/icons/h.jpg" alt="">
-                    <img src="./styles/icons/h.jpg" alt="">
+                    <a href="https://github.com/trpl-A/Py_acc_pswd" target="_blank">
+                        <img src="./styles/icons/skills/logo-py.png" alt="python logo" title="python account manager">
+                    </a>
+                    <a href="https://github.com/trpl-A/Py_acc_pswd" target="_blank">
+                        <img src="./styles/icons/skills/logo-java.png" alt="java logo" title="java bank app">
+                    </a>
                 </div>
 
                 <div class="center">
@@ -254,8 +271,8 @@
             </div>
         </div>
     </section>
+    <!-- developed by trpl-A -->
 
-    <!-- CREATED BY RFX -->
 </body>
 
 </html>

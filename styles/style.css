@@ -217,6 +217,7 @@ section #my-skills .skills #recent-project {
   font-weight: 100;
 }
 #projects img {
+  padding: 10px;
   width: 200px;
   height: 200px;
   -o-object-fit: cover;

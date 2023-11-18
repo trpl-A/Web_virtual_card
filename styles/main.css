@@ -13,7 +13,7 @@ html {
 }
 
 ::selection {
-    color: white;
+    color: rgb(0, 210, 217);
     background-color: black;
 }
 
