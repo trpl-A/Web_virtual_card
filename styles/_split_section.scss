@@ -5,7 +5,9 @@ section {
     // top: 0;
     // left: 100vw;
 
-    // height: 100vh;
+    // height: 120vh;
+    // min-height: 120%;
+
     width: 100vw;
     color: white;
 
@@ -32,7 +34,9 @@ section {
 
     // other     
     #my-skills {
-        // background-color: black;
+        // min-height:100vh; 
+        background-color: black;
+        padding:20px 0;
 
         h2 {
             padding: 2vh 1vh;

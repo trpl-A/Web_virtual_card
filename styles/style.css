@@ -3,8 +3,8 @@ header {
   background-attachment: fixed;
   background-color: black;
   color: white;
-  /* background-image: url("./images/anonymous.jpg"); */
-  /* background-blend-mode: luminosity; */
+  padding: 20px 0;
+  min-height: 100vh;
 }
 header p {
   margin-top: 20px;
@@ -51,6 +51,10 @@ section .img-fix {
   width: 100px;
   height: 100px;
 }
+section #my-skills {
+  background-color: black;
+  padding: 20px 0;
+}
 section #my-skills h2 {
   padding: 2vh 1vh;
   color: white;
@@ -78,7 +82,7 @@ section #my-skills .skills #recent-project {
   color: white;
   padding: 10px;
   width: 100vw;
-  height: 100vh;
+  min-height: 130%;
   z-index: -10;
   position: absolute;
   top: 100;
@@ -155,7 +159,7 @@ section #my-skills .skills #recent-project {
   color: white;
   padding: 10px;
   width: 100vw;
-  height: 100vh;
+  min-height: 130%;
   z-index: -10;
   position: absolute;
   top: 100;
@@ -203,7 +207,7 @@ section #my-skills .skills #recent-project {
   color: white;
   padding: 10px;
   width: 100vw;
-  height: 100vh;
+  min-height: 125%;
   z-index: -10;
   position: absolute;
   top: 100;
@@ -226,7 +230,6 @@ section #my-skills .skills #recent-project {
 
 @media (max-width: 750px) {
   header {
-    height: 100%;
     background-color: rgb(55, 0, 0);
   }
   header p {
@@ -263,8 +266,8 @@ section #my-skills .skills #recent-project {
     font-size: 12px;
   }
   #projects img {
-    width: 40vw;
-    height: 40vw;
+    width: 30vw;
+    height: 30vw;
   }
   #contact h2 {
     margin-top: 1vh;

@@ -2,7 +2,7 @@
 - Desc:         A personal/ portfolio website
 - Developer:    trpl-A
 - Started:      29.10.23
-- Updated:      18.11.23
+- Updated:      03.02.24
 - Status:   
     * COMPLETE
 ---
